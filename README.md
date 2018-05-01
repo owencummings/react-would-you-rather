@@ -1,4 +1,4 @@
-# React MyReads, an Udacity Project
+# React Redux Would You Rather, an Udacity Project
 
 A single-page web app built to manage a system of polls which various users can vote on. Uses Redux for state management.
 
