@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.btn {
+  text-transform: capitalize;
+  margin: 1vw auto;
+  padding: 10px;
+  border: 2px solid rgba(0,0,0,.29);
+  cursor: pointer;
+  background: #fff;
+  font-size: 2.5vw;
+  width: 25vw;
+  position: relative;
+  border-radius: 5px;
+
+}
+
+.smallBtn{
+  text-transform: capitalize;
+  margin: 2vw;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.29);
+  cursor: pointer;
+  background: #fff;
+  font-size: 1vw;
+  width: 10vw;
+  position: relative;
+  border-radius: 5px;
+}
+
+.userIcon{
+  height: 4vw;
+  width: 4vw;
+  border-radius: 30%;
+}
+
+.loginElementContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.loginElementText{
+  margin: auto;
+  font-size: 1.7vw;
+  color: #333;
+}
+
+.navBarContainer{
+  display: flex;
+  max-width: 900px;
+  margin: auto;
+  justify-content: center;
+}
+
+.navBarElement{
+  padding: 2vw;
+  color: #333;
+  text-decoration: none;
+  font-size: 2.5vw;
+}
+
+.navBarOuter{
+  width: 100%;
+}
+
+.para{
+  margin: 1vw auto;
+  color: #555;
+}
+
+.questionListElementContainer{
+  display: flex;
+  width: 45vw;
+  min-height: 6vw;
+  border: 1px solid rgba(0,0,0,.29);
+  border-radius: 5px;
+  justify-content: center;
+  margin: 1.5vw auto;
+
+}
+
+.questionListElementText{
+  text-transform: capitalize;
+  width: 10vw;
+  margin: auto;
+  padding: 10px;
+  color: #333;
+
+}
+
+
+.optionsContainer{
+  display: flex;
+  border: 1px solid green;
+  width: 70vw;
+  margin: 2vw auto;
+  justify-content: center;
+  border: 1px solid rgba(0,0,0,.29);
+  border-radius: 10px;
+}
+
+.option{
+  width: 30vw;
+  padding: 20px;
+  text-transform: capitalize;
+  color: #666;
+}
+
+.or{
+  color: #666;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+textarea{
+  border-radius: 4px;
+  border: 1px solid #dad7d7;
+  padding: 10px;
+  font-size: 15px;
+  width: 20vw;
+  height: 200px;
+}
+
+.addTextArea{
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+  margin: 2vw auto;
+}
+
+.leaderboardElementContainer{
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+  margin: 1.5vw auto;
+  border-radius: 10px;
+  border: 1px solid #dad7d7;
+  padding: 10px;
+  color: #666;
+}
+
+.leaderboardElementItem{
+  margin: auto;
+  width: 10vw;
+}
